@@ -9,15 +9,15 @@ body {
 /* navbar */
 .sidebar {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(110, 168, 216, 0.9)), url(images/img1.jpeg);
+    background: linear-gradient(rgba(63, 60, 60, 0.7), rgba(110, 168, 216, 0.9)), url(images/img1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 5px 7px 25px #999;
+    box-shadow: 5px 7px 25px rgb(105, 104, 104);
 }
 
 .bottom-border {
-    border-bottom: 1px groove #eee;
+    border-bottom: 1px groove rgb(238, 238, 238);
 }
 
 .sidebar-link {
@@ -64,7 +64,7 @@ body {
 }
 
 .search-button:hover {
-    background-color: rgb(53, 182, 199);
+    background-color: rgb(118, 216, 223);
     transform: translateY(-1px);
 }
 
@@ -79,7 +79,7 @@ body {
     left: 15px;
     height: 12px;
     width: 12px;
-    background-color: #f4365f;
+    background-color: #eb2143;
     border-radius: 50%;
 }
 
