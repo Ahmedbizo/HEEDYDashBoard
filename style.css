@@ -9,7 +9,7 @@ body {
 /* navbar */
 .sidebar {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(images/img1.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(110, 168, 216, 0.9)), url(images/img1.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,4 +22,23 @@ body {
 
 .sidebar-link {
     transition: all .4s;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(41, 182, 59);
+    border-radius: 5px;
+}
+
+.current {
+    background-color: #2df057;
+    border-radius: 7px;
+    box-shadow: 2px 5px 10px rgb(131, 230, 155);
+    transition: all .3s;
+}
+
+.current:hover {
+    background-color: #25d8f0;
+    border-radius: 7px;
+    box-shadow: 2px 5px 20px rgb(81, 179, 81);
+    transform: translateY(-1px);
 }
