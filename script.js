@@ -44,3 +44,26 @@ $('#world-map').vectorMap({
   
   // Date Picker Initialization
   $('.datepicker').pickadate();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
