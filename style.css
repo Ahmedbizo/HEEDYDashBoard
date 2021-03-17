@@ -135,7 +135,7 @@ body {
     transform: translateY(-2px);
 }
 
-.recent-grid:hover {
+.card:hover {
     box-shadow: 2px 3px 15px #999;
     transform: translateY(-2px);
 
@@ -156,14 +156,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #db1919;
 
 }
 
 .card-header button {
-    background: var(--main-color);
+    background: deeppink;
     border-radius: 10px;
-    color: deeppink;
+    color: rgb(252, 247, 250);
     font-size: .8rem;
     padding: .5rem 1rem;
     border: 1px solid var(--main-color);
