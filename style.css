@@ -156,7 +156,7 @@ body {
 .card-header button {
     background: var(--main-color);
     border-radius: 10px;
-    color: #fff;
+    color: deeppink;
     font-size: .8rem;
     padding: .5rem 1rem;
     border: 1px solid var(--main-color);
@@ -169,8 +169,8 @@ table {
 }
 
 thead tr {
-    border-top: 1px solid #f0f0f0;
-    border-bottom: 2px solid #f0f0f0;
+    border-top: 1px solid #cc2525;
+    border-bottom: 2px solid #e61f1f;
 
 
 }
@@ -184,7 +184,7 @@ td {
 
     padding: .5rem 1rem;
     font-size: .9rem;
-    color: #222;
+    color: rgb(168, 29, 29);
 
 
 }
@@ -241,30 +241,30 @@ tr td:last-child {
 
 .info images {
     border-radius: 50%;
-    margin-right: 1rem;
+    margin-right: .5rem;
 
 }
 
 .info h4 {
     font-size: .8rem;
     font-weight: 600;
-    color: #222;
+    color: rgb(51, 191, 216);
 
 }
 
 .info small {
-    font-weight: 600;
-    color: var(--text-grey);
+    font-weight: 400;
+    color: deeppink;
 
 }
 
-.contact span {
+.contact i {
 
     font-size: 1.2rem;
 
     display: inline-block;
     margin-left: .5rem;
-    color: var(--main-color);
+    color: deeppink;
 
 
 
