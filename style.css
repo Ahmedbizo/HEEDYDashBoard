@@ -132,6 +132,13 @@ body {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: 63% auto;
+    transform: translateY(-2px);
+}
+
+.recent-grid:hover {
+    box-shadow: 2px 3px 15px #999;
+    transform: translateY(-2px);
+
 }
 
 .card {
