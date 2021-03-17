@@ -123,26 +123,17 @@ body {
 
 }
 
-
-
-.chattt {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.info {
-    display: flex;
-    align-items: center;
-
-}
-
 /* end of task list */
 
+/* start project table  */
 
+table {
 
+    border-collapse: collapse;
 
+}
+
+/* end  project table  */
 
 
 
