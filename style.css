@@ -112,18 +112,7 @@ body {
 
 /* end of cards */
 
-/* task list */
-.task-border {
-    border-left: 3px solid #25b9e6;
-}
 
-.task-border:hover {
-    box-shadow: 2px 3px 15px #999;
-    transform: translateY(-2px);
-
-}
-
-/* end of task list */
 
 /* start project table  */
 
@@ -248,7 +237,7 @@ tr td:last-child {
 
 .info images {
     border-radius: 50%;
-    margin-right: .5rem;
+    margin-right: .7rem;
 
 }
 
@@ -265,16 +254,32 @@ tr td:last-child {
 
 }
 
-.contact i {
-
-    font-size: 1.2rem;
-
-    display: inline-block;
-    margin-left: .5rem;
-    color: deeppink;
 
 
 
+
+
+
+
+
+
+
+
+
+
+.icon-container {
+    width: 50px;
+    height: 50px;
+    position: relative;
 }
 
-/* end  project table  */
+.online_icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: #4cd137;
+    border-radius: 50%;
+    bottom: 0.2em;
+    right: 0.4em;
+    border: 1.5px solid rgb(250, 249, 249);
+}
