@@ -170,6 +170,7 @@ body {
     padding: .5rem 1rem;
 
 
+
 }
 
 .info {
@@ -229,7 +230,6 @@ body {
 
 .online_red {
     position: relative;
-    display: inline-block;
     height: 15px;
     width: 15px;
     background-color: #eb2143;
