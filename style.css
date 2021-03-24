@@ -101,13 +101,13 @@ body {
 
 /* cards */
 .card-common {
-    box-shadow: 1px 2px 5px #999;
+    box-shadow: 1px 2px 5px rgb(197, 103, 174);
     transition: all .4s;
 }
 
 .card-common:hover {
     box-shadow: 2px 3px 15px #999;
-    transform: translateY(-1px);
+    transform: translateY(-3px);
 }
 
 /* end of cards */
@@ -121,12 +121,13 @@ body {
     display: grid;
     grid-gap: 4rem;
     grid-template-columns: 60% auto;
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 
 .card:hover {
     box-shadow: 2px 3px 15px #999;
     transform: translateY(-2px);
+    box-shadow: 1px 2px 5px rgb(81, 223, 223);
 
 }
 
@@ -146,6 +147,8 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #db1919;
+    background-color: #dddddd;
+    box-shadow: 1px 2px 5px rgb(88, 221, 221);
 
 }
 
@@ -181,7 +184,7 @@ body {
 
 .info images {
     border-radius: 50%;
-    margin-right: .7rem;
+    margin-right: .9rem;
 
 }
 
