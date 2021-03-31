@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="title icon" href="images/title-img.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+   
+
+
+
+
+    <title>HEEDY DashBoard </title>
+  </head>
+  <body>
+
+     <!-- navbar -->
+     <nav class="navbar navbar-expand-md navbar-light">
+      <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <div class="container-fluid">
+          <div class="row">
+            <!-- sidebar -->
+            <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
+              <a href="#" class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">Organisation Name</a>
+              <div class="bottom-border pb-2">
+                
+                <img src="images/cust3.jpeg" width="80" class="rounded-circle mr-8">
+                
+                <a href="#" class="nav-link" data-toggle="modal" data-target="#profile">Helen Smith</a>
+                
+                
+              </div>  
+              <ul class="navbar-nav flex-column mt-8">
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-calendar-times text-light fa-lg mr-3"></i>Calendar</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="far fa-comment text-light fa-lg mr-3"></i>Chat</a></li>
+                
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="	fas fa-map-marker-alt text-light fa-lg mr-3"></i>Map</a></li>
+                
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-user text-light fa-lg mr-3"></i> Clients </a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-users text-light fa-lg mr-3"></i> Staff</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-cog text-light fa-lg mr-3"></i> Settings  </a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-tasks text-light fa-lg mr-3"></i>Log </a></li>
+              </ul>
+              <img src="images/heedy-logo.jpeg" class="image" width="180" height="110" />
+            </div>
+      
+            <!-- end of sidebar -->
+
+            <!-- top-nav -->  
+            <div class="col-xl-10 col-lg-9 col-md-8 ml-auto bg-secondary fixed-top py-2 top-navbar">
+              <div class="row align-items-center">
+                <div class="col-md-4">
+                  <a href="#" class="text-light text-uppercase mb-0">< Dashboard</a>
+                  
+                </div>
+                <div class="col-md-5">
+                  <form>
+                    <div class="input-group">
+                      <input type="text" class="form-control search-input" placeholder="Sök...">
+                      <button type="button" class="btn btn-white search-button"><i class="fas fa-search text-dark"></i></button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-3">
+                  <ul class="navbar-nav">
+                    <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="
+                      fas fa-comments text-white fa-lg"></i></a></li>
+                    <li class="nav-item icon-parent"><a href="#" class="nav-link icon-bullet"><i class="
+                      fas fa-bell text-white fa-lg"></i></a></li>
+                    <li class="nav-item ml-md-auto"><a href="loggin.html" class="nav-link" data-toggle="loggin.html" data-target="#sign-out"><i class="fas fa-sign-out-alt text-danger fa-lg"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end of top-nav -->
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+     <!-- modal -->
+     <div class="modal fade" id="sign-out">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Want to leave?</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            Press log out 
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Stay here</button>
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Log out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal -->
+
+    <div class="modal fade" id="profile">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <img src="images/cust3.jpeg" width="90" class="rounded-circle mr-5">
+            
+            <h4 class="modal-title">Helena Smith </h4>
+            
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            
+
+            
+            Senior Software Engineer <br/>
+            
+            
+            Göteborg, Sweden <br/><br/>
+
+            
+            <button type="button" class="btn btn-primary" > 
+              <i class="fas fa-envelope-square"></i> 
+              
+            </button>
+            
+               Send Massage<br/><br/>
+            <button type="button" class="btn btn-success" > 
+              <i class="fas fa-phone"></i> 
+            </button>
+               Tel : 07xxxxxxx <br/><br/>
+            <button type="button" class="btn btn-warning " > 
+              <i class="fas fa-video"></i> 
+            </button>
+              Video call <br/><br/>
+            <button type="button" class="btn btn-danger " > 
+              <i class="fas fa-user-lock"></i> 
+            </button>
+              private conversation <br/><br/>
+            <button type="button" class="btn btn-info" > 
+              <i class="fas fa-share-alt"></i> 
+            </button>
+              share a contract <br/><br/>
+            <button type="button" class="btn btn-secondary" > 
+              <i class="fas fa-users"></i>
+            </button>
+
+          
+            
+            
+            Create New Group With<br/><br/>
+            <button type="button" class="btn btn-black-80" > 
+              <i class="fas fa-calendar-alt"></i>
+            </button>
+            schedule a call<br/><br/> 
+           
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnn btn-primary" data-dismiss="modal">Edite</button>
+            <button type="button" class="btnn btn-warning" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- 1 -->
+    <div class="modal fade" id="1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <img src="images/cust5.jpeg" width="90" class="rounded-circle mr-5">
+            
+            <h4 class="modal-title">Pierre Karlsson  </h4>
+            
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            
+
+            
+            CEO <br/>
+            
+            
+            Göteborg, Sweden <br/><br/>
+
+            
+            <button type="button" class="btn btn-primary" > 
+              <i class="fas fa-envelope-square"></i> 
+              
+            </button>
+            
+               Send Massage<br/><br/>
+            <button type="button" class="btn btn-success" > 
+              <i class="fas fa-phone"></i> 
+            </button>
+               Tel : 07xxxxxxx <br/><br/>
+            <button type="button" class="btn btn-warning " > 
+              <i class="fas fa-video"></i> 
+            </button>
+              Video call <br/><br/>
+            <button type="button" class="btn btn-danger " > 
+              <i class="fas fa-user-lock"></i> 
+            </button>
+              private conversation <br/><br/>
+            <button type="button" class="btn btn-info" > 
+              <i class="fas fa-share-alt"></i> 
+            </button>
+              share a contract <br/><br/>
+            <button type="button" class="btn btn-secondary" > 
+              <i class="fas fa-users"></i>
+            </button>
+
+          
+            
+            
+            Create New Group With<br/><br/>
+            <button type="button" class="btn btn-black-80" > 
+              <i class="fas fa-calendar-alt"></i>
+            </button>
+            schedule a call<br/><br/>
+           
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnn btn-primary" data-dismiss="modal">Edite</button>
+            <button type="button" class="btnn btn-warning" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- 2 -->
+    <div class="modal fade" id="2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <img src="images/cust2.jpeg" width="90" class="rounded-circle mr-5">
+            
+            <h4 class="modal-title">Markus  </h4>
+            
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            
+
+            
+            
+            Project ledar
+
+            <br/>
+            
+            
+            Göteborg, Sweden <br/><br/>
+
+            
+            <button type="button" class="btn btn-primary" > 
+              <i class="fas fa-envelope-square"></i> 
+              
+            </button>
+            
+               Send Massage<br/><br/>
+            <button type="button" class="btn btn-success" > 
+              <i class="fas fa-phone"></i> 
+            </button>
+               Tel : 07xxxxxxx <br/><br/>
+            <button type="button" class="btn btn-warning " > 
+              <i class="fas fa-video"></i> 
+            </button>
+              Video call <br/><br/>
+            <button type="button" class="btn btn-danger " > 
+              <i class="fas fa-user-lock"></i> 
+            </button>
+              private conversation <br/><br/>
+            <button type="button" class="btn btn-info" > 
+              <i class="fas fa-share-alt"></i> 
+            </button>
+              share a contract <br/><br/>
+            <button type="button" class="btn btn-secondary" > 
+              <i class="fas fa-users"></i>
+            </button>
+
+          
+            
+            
+            Create New Group With<br/><br/>
+            <button type="button" class="btn btn-black-80" > 
+              <i class="fas fa-calendar-alt"></i>
+            </button>
+            schedule a call<br/><br/>
+           
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnn btn-primary" data-dismiss="modal">Edite</button>
+            <button type="button" class="btnn btn-warning" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- 3 -->
+    <div class="modal fade" id="3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            
+            <img src="images/cust6.jpeg" width="90" class="rounded-circle mr-5">
+            
+            <h4 class="modal-title">Mona Helnberg  </h4>
+            
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+            
+
+            
+            
+            CPA Expert
+
+            <br/>
+            
+            
+            Göteborg, Sweden <br/><br/>
+
+            
+            <button type="button" class="btn btn-primary" > 
+              <i class="fas fa-envelope-square"></i> 
+              
+            </button>
+            
+               Send Massage<br/><br/>
+            <button type="button" class="btn btn-success" > 
+              <i class="fas fa-phone"></i> 
+            </button>
+               Tel : 07xxxxxxx <br/><br/>
+            <button type="button" class="btn btn-warning " > 
+              <i class="fas fa-video"></i> 
+            </button>
+              Video call <br/><br/>
+            <button type="button" class="btn btn-danger " > 
+              <i class="fas fa-user-lock"></i> 
+            </button>
+              private conversation <br/><br/>
+            <button type="button" class="btn btn-info" > 
+              <i class="fas fa-share-alt"></i> 
+            </button>
+              share a contract <br/><br/>
+            <button type="button" class="btn btn-secondary" > 
+              <i class="fas fa-users"></i>
+            </button>
+
+          
+            
+            
+            Create New Group With<br/><br/>
+            <button type="button" class="btn btn-black-80" > 
+              <i class="fas fa-calendar-alt"></i>
+            </button>
+            schedule a call<br/><br/>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btnn btn-primary" data-dismiss="modal">Edite</button>
+            <button type="button" class="btnn btn-warning" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- cards -->
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
+            <div class="row pt-md-5 mt-md-3 mb-5">
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-comments fa-3x text-warning"></i>
+                      <div class="text-warning text-warning">
+                        <h5>Massage</h5>
+                        <h3>27</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync mr-3"></i>
+                    <span>
+                      Update now</span>
+                   
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="fas fa-external-link-alt mr-3"></i>
+                    <span>check</span>
+                   
+                  </div>  
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-video fa-3x text-success"></i>
+                      <div class="text-right text-success">
+                        <h5>
+                          video call</h5>
+                        <h3>21</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync mr-3"></i>
+                    <span>Update now
+                    </span>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="fas fa-external-link-alt mr-3"></i>
+                    <span>check</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-calendar-alt fa-3x text-info"></i>
+                      <div class="text-right text-primary">
+                        <h5>Calendar</h5>
+                        <h3>39 </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync mr-3"></i>
+                    <span>Update now
+                    </span>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="fas fa-external-link-alt mr-3"></i>
+                    <span>Check</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-bell fa-3x text-danger"></i>
+                      <div class="text-right text-danger">
+                        <h5>Alarm </h5>
+                        <h3>2</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-cog mr-3"></i>
+                    <span>
+                      Set up now</span>
+                  </div>
+                  <div class="card-footer text-danger">
+                    <i class="fas fa-external-link-alt mr-3"></i>
+                    <span>Check</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section>
+   
+   <!-- end of cards -->
+
+
+
+
+   
+
+
+ 
+
+             <!-- tables -->
+    <section>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-xl-9 col-lg-5 col-md-5 ml-auto">
+            <div class="row align-items-center">
+              <div class="col-xl-10 col-12 mb-4 mb-xl-0">
+                <h3 class="text-muted text-center mb-3">Clients</h3>
+                <table class="table table-striped bg-light text-center">
+                  <thead>
+                    <tr class="text-muted">
+                      <th>#</th>
+                      <th>Name</th>
+                      <th>Salary</th>
+                      <th>Date</th>
+                      <th>Contact</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1</th>
+                      <td><div class="info">
+                               
+            
+                        <img src="images/cust2.jpeg" width="40px" height="40px" class="rounded-circle mr-5"  >
+                        <span class="online_red"></span>
+                      
+                       
+   
+   
+                       <div>
+   
+                         <a href="#" class="nav-link" data-toggle="modal" data-target="#2">Markus</a>
+                         
+   
+   
+                       </div>
+   
+   
+   
+   
+   
+                     </div></td>
+                      <td></td>
+                      <td>25/05/2018</td>
+                      <td><button type="button" class="btnn btn-info btn-sm">Message</button></td>
+                    </tr>
+                    <tr>
+                      <th>2</th>
+                      <td><div class="info">
+            
+                        <img src="images/cust3.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
+                        <span class="online_orange"></span>
+    
+    
+                        <div>
+    
+                          <a href="#" class="nav-link" data-toggle="modal" data-target="#profile">Helen Smith</a>
+                          
+    
+    
+                        </div>
+    
+    
+    
+    
+    
+                      </div></td>
+                      <td></td>
+                      <td>25/05/2018</td>
+                      <td><button type="button" class="btnn btn-info btn-sm">Message</button></td>
+                    </tr>
+                    <tr>
+                      <th>3</th>
+                      <td><div class="info">
+            
+                        <img src="images/cust6.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
+                        <span class="online_red"></span>
+    
+    
+                        <div>
+    
+                          <a href="#" class="nav-link" data-toggle="modal" data-target="#3">Mona Helnberg</a>
+                          
+    
+    
+                        </div>
+    
+    
+    
+    
+    
+                      </div></td>
+                      <td></td>
+                      <td>25/05/2018</td>
+                      <td><button type="button" class="btnn btn-info btn-sm">Message</button></td>
+                    </tr>
+                    <tr>
+                      <th>4</th>
+                      <td><div class="info">
+     
+                        <img src="images/cust5.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
+                        <span class="online_green"></span>
+    
+    
+                        <div>
+    
+                         <a href="#" class="nav-link" data-toggle="modal" data-target="#1">Pierre Karlsson</a>
+                          
+    
+    
+                        </div></td>
+                      <td></td>
+                      <td>25/05/2018</td>
+                      <td><button type="button" class="btnn btn-info btn-sm">Message</button></td>
+                    </tr>
+                    <tr>
+                      <th>5</th>
+                      <td>Bob</td>
+                      <td></td>
+                      <td>25/05/2018</td>
+                      <td><button type="button" class="btnn btn-info btn-sm">Message</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- pagination -->
+                <nav>
+                  <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        <span>&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a href="#" class="page-link py-2 px-3">
+                        1
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        2
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        3
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a href="#" class="page-link py-2 px-3">
+                        <span>&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <!-- end of pagination -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- end of tables -->
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+              
+
+
+  
+    
+  
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
