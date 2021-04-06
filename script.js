@@ -46,6 +46,9 @@ $('#world-map').vectorMap({
   $('.datepicker').pickadate();
 
 
+  
+
+
 
 
 
