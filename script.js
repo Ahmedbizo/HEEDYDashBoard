@@ -53,6 +53,9 @@ $('#world-map').vectorMap({
 
 
 
+
+
+
   
         
 
