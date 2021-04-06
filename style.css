@@ -469,6 +469,43 @@ form.sign-in-form {
     background-color: #4de272;
 }
 
+.but {
+    width: 100px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.but:hover {
+    background-color: #4de272;
+}
+
+.butt {
+    width: 100px;
+    background-color: #fc4242;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.butt:hover {
+    background-color: #4de272;
+}
 
 
 
