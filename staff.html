@@ -46,7 +46,7 @@
                 
                 <li class="nav-item"><a href="client.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-user text-light fa-lg mr-3"></i> Clients </a></li>
                 <li class="nav-item"><a href="staff.html" class="nav-link text-white p-3 mb-2 current"><i class="fas fa-users text-light fa-lg mr-3"></i> Staff</a></li>
-                <li class="nav-item"><a href="units.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-puzzle-piece"></i> Units </a></li>
+                <li class="nav-item"><a href="units.html" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-puzzle-piece fa-lg mr-3"></i> Units </a></li>
                 <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-cog text-light fa-lg mr-3"></i> Settings  </a></li>
                 <li class="nav-item"><a href="#" class="nav-link text-white p-3 mb-2 sidebar-link"><i class="fas fa-tasks text-light fa-lg mr-3"></i>Log </a></li>
               </ul>
@@ -543,7 +543,7 @@
                           <div class="modal-body">
                             <div class="form-group">
                               <label>Staff Name</label>
-                              <input type="text" class="form-control" placeholder="Add Name">
+                              <input type="text" class="form-control" placeholder="Add Name....">
                             </div>
                             <div class="form-group">
                               <label>More Detail</label>
@@ -557,6 +557,47 @@
                             <div class="form-group">
                               <label>Contact Info</label>
                               <input type="text" class="form-control" placeholder="Add Tel or e-mail....">
+                            </div>
+                            <div class="form-group">
+                              <label> Status</label>
+                              <input type="text" class="form-control" placeholder="Add Description...">
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="butt btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="but btn-primary">Save </button>
+                          </div>
+                        </form>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Add Roles -->
+                    <div class="modal fade" id="addrole" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <form>
+                          <div class="modal-header">
+                            <button type="submit" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h3 class="modal-title" id="myModalLabel">Add Role</h3>
+                          </div>
+                          <div class="modal-body">
+                            <div class="form-group">
+                              <label> Job </label>
+                              <input type="text" class="form-control" placeholder="Job Name....">
+                            </div>
+                            <div class="form-group">
+                              <label>More Detail</label>
+                              <textarea name="editor2" class="form-control" placeholder="Page Body"></textarea>
+                            </div>
+                            <div class="checkbox">
+                              <label>
+                                <input type="checkbox"> Published
+                              </label>
+                            </div>
+                            <div class="form-group">
+                              <label> Information</label>
+                              <input type="text" class="form-control" placeholder="Salary....">
                             </div>
                             <div class="form-group">
                               <label> Status</label>
@@ -626,6 +667,7 @@
                       <th>Contact</th>
                       <th></th>
                       <button class="buttt" data-toggle="modal" data-target="#addPage"> Add Staff</button>
+                      <button class="butttt" data-toggle="modal" data-target="#addrole"> Add Roles</button>
                       <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
                     </tr>
                   </thead>
@@ -942,6 +984,9 @@
      <script>
       CKEDITOR.replace( 'editor1' );
   </script>
+   <script>
+    CKEDITOR.replace( 'editor2' );
+</script>
 
 
 

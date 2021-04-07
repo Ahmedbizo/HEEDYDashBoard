@@ -528,6 +528,24 @@ form.sign-in-form {
     background-color: #afec60;
 }
 
+.butttt {
+    width: 130px;
+    background-color: #46e453;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.butttt:hover {
+    background-color: #60ecec;
+}
 
 
 
