@@ -547,6 +547,25 @@ form.sign-in-form {
     background-color: #60ecec;
 }
 
+.bstttt {
+    width: 80px;
+    background-color: #f145e3;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bstttt:hover {
+    background-color: #60ecec;
+}
+
 
 
 .panels-container {
