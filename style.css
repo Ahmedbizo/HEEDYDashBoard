@@ -548,8 +548,8 @@ form.sign-in-form {
 }
 
 .bstttt {
-    width: 80px;
-    background-color: #f145e3;
+    width: 50px;
+    background-color: #46e453;
     border: none;
     outline: none;
     height: 49px;
@@ -563,6 +563,25 @@ form.sign-in-form {
 }
 
 .bstttt:hover {
+    background-color: #60ecec;
+}
+
+.bstttt1 {
+    width: 50px;
+    background-color: #fc4242;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bstttt1:hover {
     background-color: #60ecec;
 }
 
