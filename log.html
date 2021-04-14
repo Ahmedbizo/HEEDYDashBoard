@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="http://cdn.ckeditor.com/4.6.1/standard/ckeditor.js"></script>
+    
 
 
    
@@ -619,351 +620,40 @@
           <div class="col-xl-9 col-lg-5 col-md-5 ml-auto">
             <div class="row align-items-center">
               <div class="col-xl-11 col-12 mb-4 mb-xl-0">
-                <h1 class="text-muted text-center mb-3">Units</h1>
+                <h1 class="text-muted text-center mb-3">Add Activities</h1>
                 <table class="table table-striped bg-light text-center">
                   <thead class="thead-dark">
                     
                     <tr class="text-muted" >
-                      <th>Check</th>
-                      <th >Staff</th>
-                      <th>status</th>
-                      <th>Mobile / Browser</th>
-                      <th>Edit</th>
-                      <th >Family</th>
-                      <th >Client</th>
+                        <th>User</th>
+                        <th>Activity</th>
+                        <th>Status</th>
+                        <th>remove</th>
                       
                       
                       
-                      <button class="buttt" data-toggle="modal" data-target="#addPage"> Add Units</button>
                       
-                      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
                       
                     </tr>
                     
                   </thead>
                   
+                  
                   <tbody>
-                    
+                    <tr>
+                        <td><input type="text" class="form-control" placeholder="User name"></td>
+                        <td><input type="text" placeholder="Description ..." class="form-control"></td>
+                        <td><span class="badge badge-warning w-80    py-2">Inactive</span></td>
+                        <td class="mt-10"><button class="badge badge-danger"><i class="fa fa-trash"></i> Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="form-control" placeholder="User name"></td>
+                        <td><input type="text" placeholder="Description ..." class="form-control"></td>
+                        <td> <span class="badge badge-success w-80    py-2">Active</span></td>
+                        <td class="mt-10"><button class="badge badge-danger"><i class="fa fa-trash"></i> Delete</button></td>
+                    </tr>
+                   
                   
-                    <tr>
-                      <th>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> 
-                          </label>
-                        </div>
-                      </th>
-                      <td><div class="info">
-            
-                        <img src="images/cust3.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
-                        <span class="online_orange"></span>
-    
-    
-                        <div>
-    
-                          <a href="#" class="nav-link" data-toggle="modal" data-target="#profile">Helen Smith</a>
-                          
-    
-    
-                        </div>
-    
-    
-    
-    
-    
-                      </div></td>
-                      <td><span class="badge badge-danger w-80 py-2">Deleted</span></td>
-                      <td><div class="contact">
-            
-                                
-                        <button type="button" class="btn btn-warning " > 
-                          <i class="fas fa-mobile-alt"></i> 
-                        </button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info " > 
-                          <i class="far fa-window-restore"></i>
-                        </button>&nbsp;&nbsp;
-                        
-    
-    
-    
-                      </div>  </td>
-                      <td>
-                        <button type="button" class="bstttt btn-warning " > 
-                          <i class="fas fa-user-edit"></i>
-                        </button>
-                        <button type="button" class="bstttt1 btn-warning " > 
-                          <i class="fas fa-trash"></i>
-                        </button>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#profile">Helen Smith</a>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#profile">Helen Smith</a>
-                      </td>
-                    </tr>
-                    
-                    <tr>
-                      <th>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> 
-                          </label>
-                        </div>
-                      </th>
-                      <td><div class="info">
-            
-                        <img src="images/cust6.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
-                        <span class="online_red"></span>
-    
-    
-                        <div>
-    
-                          <a href="#" class="nav-link" data-toggle="modal" data-target="#3">Mona Helnberg</a>
-                          
-    
-    
-                        </div>
-    
-    
-    
-    
-    
-                      </div></td>
-                      <td><span class="badge badge-success w-80 py-2">Active</span></td>
-                      <td><div class="contact">
-            
-                                
-                        <button type="button" class="btn btn-warning " > 
-                          <i class="fas fa-mobile-alt"></i> 
-                        </button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info " > 
-                          <i class="far fa-window-restore"></i>
-                        </button>&nbsp;&nbsp;
-    
-    
-    
-                      </div>  </td>
-                      <td> <button type="button" class="bstttt btn-warning " > 
-                        <i class="fas fa-user-edit"></i>
-                      </button>
-                      <button type="button" class="bstttt1 btn-warning " > 
-                        <i class="fas fa-trash"></i>
-                      </button>
-                    
-                    </td>
-                    <td>
-                      <a href="#" class="nav-link" data-toggle="modal" data-target="#1">Pierre Karlsson</a>
-                    </td>
-                    <td>
-                      <a href="#" class="nav-link" data-toggle="modal" data-target="#1">Pierre Karlsson</a>
-                    </td>
-                    </tr>
-                    <tr>
-                      <th>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> 
-                          </label>
-                        </div>
-                      </th>
-                      <td><div class="info">
-     
-                        <img src="images/cust5.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
-                        <span class="online_green"></span>
-    
-    
-                        <div>
-    
-                         <a href="#" class="nav-link" data-toggle="modal" data-target="#1">Pierre Karlsson</a>
-                          
-    
-    
-                        </div></td>
-                      <td> <span class="badge badge-warning w-80    py-2">Inactive</span></td>
-                      <td><div class="contact">
-            
-                                
-                        <button type="button" class="btn btn-warning " > 
-                          <i class="fas fa-mobile-alt"></i> 
-                        </button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info " > 
-                          <i class="far fa-window-restore"></i>
-                        </button>&nbsp;&nbsp;
-    
-    
-    
-                      </div>  </td>
-                      <td>
-                        <button type="button" class="bstttt btn-warning " > 
-                          <i class="fas fa-user-edit"></i>
-                        </button>
-                        <button type="button" class="bstttt1 btn-warning " > 
-                          <i class="fas fa-trash"></i>
-                        </button>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#3">Mona Helnberg</a>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#3">Mona Helnberg</a>
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <th>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> 
-                          </label>
-                        </div>
-                      </th>
-                      <td><div class="info">
-     
-                        <img src="images/cust5.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
-                        <span class="online_green"></span>
-    
-    
-                        <div>
-    
-                         <a href="#" class="nav-link" data-toggle="modal" data-target="#1">Pierre Karlsson</a>
-                          
-    
-    
-                        </div></td>
-                      <td> <span class="badge badge-warning w-80    py-2">Inactive</span> </td>
-                      <td><div class="contact">
-            
-                                
-                        <button type="button" class="btn btn-warning " > 
-                          <i class="fas fa-mobile-alt"></i> 
-                        </button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info " > 
-                          <i class="far fa-window-restore"></i>
-                        </button>&nbsp;&nbsp;
-    
-    
-    
-                      </div>  </td>
-                      <td>
-                        <button type="button" class="bstttt btn-warning " > 
-                          <i class="fas fa-user-edit"></i>
-                        </button>
-                        <button type="button" class="bstttt1 btn-warning " > 
-                          <i class="fas fa-trash"></i>
-                        </button>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#4">Markus</a>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#4">Markus</a>
-                      </td>
-                  
-                    </tr>
-
-                    
-                    <tr>
-                      <th>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> 
-                          </label>
-                        </div>
-                      </th>
-                      <td><div class="info">
-     
-                        <img src="images/cust1.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
-                        <span class="online_red"></span>
-    
-    
-                        <div>
-    
-                         <a href="#" class="nav-link" data-toggle="modal" data-target="#4">jonas Bengtsson</a>
-                          
-    
-    
-                        </div></td>
-                      <td> <span class="badge badge-success w-80 py-2">Active</span></td>
-                      <td><div class="contact">
-            
-                                
-                        <button type="button" class="btn btn-warning " > 
-                          <i class="fas fa-mobile-alt"></i> 
-                        </button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info " > 
-                          <i class="far fa-window-restore"></i>
-                        </button>&nbsp;&nbsp;
-    
-    
-    
-                      </div>  </td>
-                      <td>
-                        <button type="button" class="bstttt btn-warning " > 
-                          <i class="fas fa-user-edit"></i>
-                        </button>
-                        <button type="button" class="bstttt1 btn-warning " > 
-                          <i class="fas fa-trash"></i>
-                        </button>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#4">jonas Bengtsson</a>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#4">jonas Bengtsson</a>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> 
-                          </label>
-                        </div>
-                      </th>
-                      <td><div class="info">
-     
-                        <img src="images/img1.jpeg" width="40px" height="40px" class="rounded-circle mr-5">
-                        <span class="online_orange"></span>
-    
-    
-                        <div>
-    
-                         <a href="#" class="nav-link" data-toggle="modal" data-target="#5">Elen Helgberg</a>
-                          
-    
-    
-                        </div></td>
-                      <td> <span class="badge badge-warning w-80    py-2">Inactive</span> </td>
-                      <td><div class="contact">
-            
-                                
-                        <button type="button" class="btn btn-warning " > 
-                          <i class="fas fa-mobile-alt"></i> 
-                        </button>&nbsp;&nbsp;
-                        <button type="button" class="btn btn-info " > 
-                          <i class="far fa-window-restore"></i>
-                        </button>&nbsp;&nbsp;
-    
-    
-    
-                      </div>  </td>
-                      <td>
-                        <button type="button" class="bstttt btn-warning " > 
-                          <i class="fas fa-user-edit"></i>
-                        </button>
-                        <button type="button" class="bstttt1 btn-warning " > 
-                          <i class="fas fa-trash"></i>
-                        </button>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#3">Mona Helnberg</a>
-                      </td>
-                      <td>
-                        <a href="#" class="nav-link" data-toggle="modal" data-target="#3">Mona Helnberg</a>
-                      </td>
-                    </tr>
-                    
                   </tbody>
                 </table>
 
@@ -971,6 +661,7 @@
 
                
               </div>
+              
             </div>
           </div>
         </div>
@@ -978,11 +669,124 @@
     </section>
      <!-- end of tables -->
 
+     <!-- activities / quick post -->
+   
+      <!-- end of activities / quick post -->
+
+
+
+
+
+
+      <section>
+        <div class="container-fluid">
+          <div class="row mb-5">
+            <div class="col-xl-9 col-lg-5 col-md-5 ml-auto">
+              <div class="row align-items-center">
+                <div class="col-xl-11 col-12 mb-4 mb-xl-0">
+                  <h1 class="text-muted text-center mb-3">Recent Customer Activities</h1>
+
+                  <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <button class="btnnn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseOne">
+                          <img src="images/cust1.jpeg" width="50" class="mr-3 rounded">
+                          John posted a new comment
+                        </button>
+                      </div>
+                      <div class="collapse show" id="collapseOne" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum modi delectus fugiat consectetur eaque harum obcaecati, saepe id vitae, dolore aliquam! Quos, doloribus quisquam.
+                        </div>                      
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <button class="btnnn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseTwo">
+                          <img src="images/cust2.jpeg" width="50" class="mr-3 rounded">
+                          Mark posted a new comment
+                        </button>
+                      </div>
+                      <div class="collapse" id="collapseTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum modi delectus fugiat consectetur eaque harum obcaecati, saepe id vitae, dolore aliquam! Quos, doloribus quisquam.
+                        </div>                      
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <button class="btnnn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseThree">
+                          <img src="images/cust3.jpeg" width="50" class="mr-3 rounded">
+                          Monica posted a new comment
+                        </button>
+                      </div>
+                      <div class="collapse" id="collapseThree" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum modi delectus fugiat consectetur eaque harum obcaecati, saepe id vitae, dolore aliquam! Quos, doloribus quisquam.
+                        </div>                      
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <button class="btnnn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseFour">
+                          <img src="images/cust4.jpeg" width="50" class="mr-3 rounded">
+                          Vivien posted a new comment
+                        </button>
+                      </div>
+                      <div class="collapse" id="collapseFour" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum modi delectus fugiat consectetur eaque harum obcaecati, saepe id vitae, dolore aliquam! Quos, doloribus quisquam.
+                        </div>                      
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <button class="btnnn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseFive">
+                          <img src="images/cust5.jpeg" width="50" class="mr-3 rounded">
+                          Nick posted a new comment
+                        </button>
+                      </div>
+                      <div class="collapse" id="collapseFive" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum modi delectus fugiat consectetur eaque harum obcaecati, saepe id vitae, dolore aliquam! Quos, doloribus quisquam.
+                        </div>                      
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <button class="btnnn btn-block bg-secondary text-light text-left" data-toggle="collapse" data-target="#collapseSix">
+                          <img src="images/cust6.jpeg" width="50" class="mr-3 rounded">
+                          Ann posted a new comment
+                        </button>
+                      </div>
+                      <div class="collapse" id="collapseSix" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis earum modi delectus fugiat consectetur eaque harum obcaecati, saepe id vitae, dolore aliquam! Quos, doloribus quisquam.
+                        </div>                      
+                      </div>
+                    </div>
+                  </div>
+                  
+                 
+  
+                  
+  
+                 
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
 
 
      <script>
       CKEDITOR.replace( 'editor1' );
   </script>
+
+
 
 
 

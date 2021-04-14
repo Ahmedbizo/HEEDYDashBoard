@@ -48,6 +48,31 @@ $('#world-map').vectorMap({
 
   
 
+  $(document).ready(function() {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 
   
 
