@@ -987,7 +987,16 @@ form.sign-in-form {
     font-size: 13px;
 }
 
+.activity-feed .feed-item .time {
+    position: relative;
+    top: -5px;
+    color: #10cf39;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
 .activity-feed .feed-item .text {
     position: relative;
     top: -3px;
+    color: #5c5f59;
 }
